@@ -7,10 +7,28 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Header Section with Contact Info -->
+  <header class="header bg-dark text-light py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Contact Info -->
+        <div class="col-md-6">
+          <p class="mb-0">Телефон: <strong>+7 926 686-87-90</strong> | Электронная почта: <a href="mailto:info@torgovyycentr.ru" class="text-light">info@torgovyycentr.ru</a></p>
+        </div>
+        <!-- Navigation Links -->
+        <div class="col-md-6 text-md-end">
+          <a href="#photos-section" class="text-light px-3">Фотографии</a>
+          <a href="#contacts-section" class="text-light px-3">Контакты</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
 
    <!-- Banner Section -->
    <div class="banner"></div> <!-- Баннер без текста -->
@@ -20,39 +38,39 @@
      <h1>Сайт в разработке</h1>
    </div>
 
-  <!-- Rental Properties Section -->
-  <div class="container py-5">
-    <h2 class="text-center mb-5">Помещения в аренду</h2>
+  <!-- Photos Section -->
+  <div id="photos-section" class="container py-5">
+    <h2 class="text-center mb-5">Фотографии торгового центра</h2> 
     <div class="row">
-      <!-- Property 1 -->
+      <!-- Photo 1 -->
       <div class="col-md-4">
         <div class="card property-card">
-          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Помещение 1">
+          <img src="photo1.jpg" class="card-img-top" alt="Фото торгового центра 1">
           <div class="card-body">
-            <h5 class="card-title">Помещение 1</h5>
-            <p class="card-text">Описание помещения.</p>
+            <h5 class="card-title">Фото 1</h5>
+            <p class="card-text">Описание первого фото торгового центра.</p>
             <a href="#" class="btn btn-primary">Подробнее</a>
           </div>
         </div>
       </div>
-      <!-- Property 2 -->
+      <!-- Photo 2 -->
       <div class="col-md-4">
         <div class="card property-card">
-          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Помещение 2">
+          <img src="photo2.jpg" class="card-img-top" alt="Фото торгового центра 2">
           <div class="card-body">
-            <h5 class="card-title">Помещение 2</h5>
-            <p class="card-text">Описание помещения.</p>
+            <h5 class="card-title">Фото 2</h5>
+            <p class="card-text">Описание второго фото торгового центра.</p>
             <a href="#" class="btn btn-primary">Подробнее</a>
           </div>
         </div>
       </div>
-      <!-- Property 3 -->
+      <!-- Photo 3 -->
       <div class="col-md-4">
         <div class="card property-card">
-          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Помещение 3">
+          <img src="photo3.jpg" class="card-img-top" alt="Фото торгового центра 3">
           <div class="card-body">
-            <h5 class="card-title">Помещение 3</h5>
-            <p class="card-text">Описание помещения.</p>
+            <h5 class="card-title">Фото 3</h5>
+            <p class="card-text">Описание третьего фото торгового центра.</p>
             <a href="#" class="btn btn-primary">Подробнее</a>
           </div>
         </div>
@@ -61,10 +79,10 @@
   </div>
 
   <!-- Contacts Section -->
-  <div class="contacts text-center py-5">
+  <div id="contacts-section" class="contacts text-center py-5">
     <h3>Контакты</h3>
-    <p>Телефон: +7 (XXX) XXX-XX-XX</p>
-    <p>Электронная почта: info@torgovyycentr.ru</p>
+    <p>Телефон: +7 926 686-87-90</p>
+    <p>Электронная почта: <a href="mailto:info@torgovyycentr.ru">info@torgovyycentr.ru</a></p>
     <p>Адрес: Москва, ул. 3-й Павелецкий проезд, 4</p>
   </div>
 

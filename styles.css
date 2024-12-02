@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'preconnect';
     
@@ -32,4 +33,48 @@ body {
 .contacts {
   background-color: #f8f9fa;
   padding: 30px 0;
+}
+
+
+/* Стиль для хедера */
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)), url('path_to_your_background_image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.header p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.header a {
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.header a:hover {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+
+.text-md-end {
+  text-align: right;
+}
+
+.text-light {
+  color: #f8f9fa !important;
+}
+
+/* Отступы и выравнивание */
+.header .container {
+  padding: 0 15px;
+}
+
+.header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
